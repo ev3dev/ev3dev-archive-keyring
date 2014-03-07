@@ -1,0 +1,17 @@
+Source: ev3dev-archive-keyring
+Section: misc
+Priority: extra
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 8.0.0), jetring, gnupg
+Standards-Version: 3.9.4
+Vcs-Git: git://github.com/ev3dev-dpkg/ev3dev-archive-keyring.git
+Vcs-Browser: http://github.com/ev3dev-dpkg/ev3dev-archive-keyring
+
+Package: ev3dev-archive-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: gpgv, ${misc:Depends}
+Recommends: gnupg
+Description: GnuPG archive keys of the ev3dev archive
+ The ev3dev project package repository is signed. This package contains the
+ gpg key used by apt to verify the authenticity of the packages in the archive.
