@@ -1,3 +1,9 @@
+ev3dev-archive-keyring (1) trusty; urgency=medium
+
+  * Start trusty branch
+
+ -- David Lechner <david@lechnology.com>  Wed, 12 Jul 2017 12:26:21 -0500
+
 ev3dev-archive-keyring (0) stable; urgency=low
 
   * Initial release.
